@@ -1,0 +1,7 @@
+[build]
+  publish = "."   # Change the dot to your folder name if needed (e.g. "public")
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
